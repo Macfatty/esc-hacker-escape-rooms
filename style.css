@@ -56,3 +56,34 @@ body {
     text-decoration: none;
     height: 66px;
 }
+
+.testimonials {
+    display: flex;
+    gap: 22.4px; 
+    margin: 71px 0 0; 
+    padding: 0 20px 0 21px;
+}
+.testimonials__avatar {
+    width: 73.34px;
+    height: 72px;
+}
+.testimonials__quote {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+.testimonials__author {
+    margin: 4px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0;
+    color:#000000;
+}
+.testimonials__content {
+    margin-top: -3px;
+}
