@@ -1,184 +1,252 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hacker Escape Rooms</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <img class="header__logo" src="images/esc-logo.svg" alt="Hacker Escape Rooms">
-        <span class="header__company-text">Hacker Escape Rooms</span>
+      <img
+        class="header__logo"
+        src="images/esc-logo.svg"
+        alt="Hacker Escape Rooms"
+      />
+      <span class="header__company-text">Hacker Escape Rooms</span>
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="example.com" class="header__nav-link">Play online</a>
+        <a href="example.com" class="header__nav-link">Play on-site</a>
+        <a href="example.com" class="header__nav-link">The story</a>
+        <a href="example.com" class="header__nav-link header__navlink--contact"
+          >Contact us</a
+        >
+      </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <img class="hero__image" src="images/main_img.svg" alt="Picture of a hacker in a room with many screens running hannah montana linux">
-            <a href="example.com" class="hero__link hero__link--onsite">On-site Challenges</a>
-            <a href="example.com" class="hero__link hero__link--online">Online Challenges</a>
-        </section>
-        <section class="testimonials">
-            <img class="testimonials__avatar" src="images/profilbild.svg" alt="Profile Picture of John Doe">
-            <div class="testimonials__content">
-                <blockquote class="testimonials__quote">
-                This is a quote about how amazing this place is and how much fun me and my friends had when we tried it
+      <section class="hero">
+        <img
+          class="hero__image"
+          src="images/main_img.svg"
+          alt="Picture of a hacker in a room with many screens running hannah montana linux"
+        />
+        <div class="hero__buttons">
+          <a href="example.com" class="hero__link hero__link--onsite"
+            >On-site Challenges</a
+          >
+          <a href="example.com" class="hero__link hero__link--online"
+            >Online Challenges</a
+          >
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="testimonials__item">
+          <img
+            class="testimonials__avatar"
+            src="images/profilbild.svg"
+            alt="Profile Picture of John Doe"
+          />
+          <div class="testimonials__content">
+            <blockquote class="testimonials__quote">
+              This is a quote about how amazing this place is and how much fun
+              me and my friends had when we tried it
             </blockquote>
-            <p class="testimonials__author">John Doe, visited us in September 2021</p>
+            <p class="testimonials__author">
+              John Doe, visited us in September 2021
+            </p>
+          </div>
+        </div>
+        <div class="testimonials__item testimonials__item--desktop">
+          <img
+            class="testimonials__avatar"
+            src="images/profilbild.svg"
+            alt="Profile Picture of John Doe"
+          />
+          <div class="testimonials__content">
+            <blockquote class="testimonials__quote">
+              This is a quote about how amazing this place is and how much fun
+              me and my friends had when we tried it
+            </blockquote>
+            <p class="testimonials__author">
+              John Doe, visited us in September 2021
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="challenges">
+        <h2 class="challenges__title">Popular challenges right now</h2>
+        <div class="challenges__cards">
+          <article class="challenges__card">
+            <img
+              class="challenges__card-image"
+              src="images/challenger_card.svg"
+              alt="Picture of man sitting in front lots of screens"
+            />
+            <div class="challenges__card-content">
+              <h3 class="challenges__card-title">Title of room (on-site)</h3>
+              <div class="challenges__rating">
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 5.svg" alt="" />
+                <p class="challenges__participants">2-6 participants</p>
+              </div>
+              <p class="challenges__card-description">
+                Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+                nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+              </p>
+              <a href="example.com" class="challenges__card-link">
+                Book this room
+              </a>
             </div>
-        </section>
-        <section class="challenges">
-            <h2 class="challenges__title">
-                Popular challenges right now 
-            </h2>
-            <div class="challenges__cards">
-            <article class="challenges__card">
-                <img class="challenges__card-image" src="images/challenger_card.svg" alt="Picture of man sitting in front lots of screens">
-                <div class="challenges__card-content">
-                    <h3 class="challenges__card-title">
-                    Title of room (on-site)
-                </h3>
-                <div class="challenges__rating">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 5.svg" alt="">      
-                    <p class="challenges__participants">
-                        2-6 participants
-                    </p>
-                </div>
-                     <p class="challenges__card-description">
-                        Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
-                    </p>
-                    <a href="example.com" class="challenges__card-link">
-                        Book this room
-                    </a>
-                </div>
-
-                    
-                
-
-            </article>
-            <article class="challenges__card">
-                <img class="challenges__card-image" src="images/challenger_card.svg" alt="Picture of man sitting in front lots of screens">
-                <div class="challenges__card-content">
-                    <h3 class="challenges__card-title">
-                    Title of room (on-site)
-                </h3>
-                <div class="challenges__rating">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 5.svg" alt="">      
-                    <p class="challenges__participants">
-                        2-6 participants
-                    </p>
-                </div>
-                     <p class="challenges__card-description">
-                        Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
-                    </p>
-                    <a href="example.com" class="challenges__card-link">
-                        Book this room
-                    </a>
-                </div>
-
-                    
-                
-
-            </article>
-            <article class="challenges__card">
-                <img class="challenges__card-image" src="images/challenger_card.svg" alt="Picture of man sitting in front lots of screens">
-                <div class="challenges__card-content">
-                    <h3 class="challenges__card-title">
-                    Title of room (on-site)
-                </h3>
-                <div class="challenges__rating">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 1.svg" alt="">
-                    <img class="challenges__star" src="images/Star 5.svg" alt="">      
-                    <p class="challenges__participants">
-                        2-6 participants
-                    </p>
-                </div>
-                     <p class="challenges__card-description">
-                        Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
-                    </p>
-                    <a href="example.com" class="challenges__card-link">
-                        Book this room
-                    </a>
-                </div>
-
-                    
-                
-
-            </article>
+          </article>
+          <article class="challenges__card">
+            <img
+              class="challenges__card-image"
+              src="images/challenger_card.svg"
+              alt="Picture of man sitting in front lots of screens"
+            />
+            <div class="challenges__card-content">
+              <h3 class="challenges__card-title">Title of room (on-site)</h3>
+              <div class="challenges__rating">
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 5.svg" alt="" />
+                <p class="challenges__participants">2-6 participants</p>
+              </div>
+              <p class="challenges__card-description">
+                Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+                nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+              </p>
+              <a href="example.com" class="challenges__card-link">
+                Book this room
+              </a>
             </div>
-            <a href="example.com" class="challenges__link challenges__link--onsite">
-                On-site challenges
-            </a>
-            <a href="example.com" class="challenges__link challenges__link--online">
-                Online challenges
-            </a>
-
-        </section>
-        <section class="story">
-            <p class="story__text">
-                Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec eo spectant haec quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.
-            </p>
-            <a href="example.com" class="story__link">
-                Read the full story
-            </a>
-        </section>
-        <section class="onsite">
-            <img class="onsite__image" src="images/nesa-by-makers-IgUR1iX0mqM-unsplash 1.svg" alt="People working together at computers">
-            <h2 class="onsite__title">
-                Play with your friends or build your team stronger at work
-            </h2>
-            <p class="onsite__description">
-                Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
-            </p>
-            <a href="example.com" class="onsite__link">
-                Book on-site today
-            </a>
-        </section>
-        <section class="online">
-            <img class="online__image" src="images/kelly-sikkema-YK0HPwWDJ1I-unsplash 1.svg" alt="Person working on a computer">
-            <h2 class="online__title">
-                Play online or visit our venue for one of our 25 escape rooms
-            </h2>
-            <p class="online__description">
-                Praeterea, ex culpa non invenies unum aut non accusatis unum. Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
-            </p>
-            <a href="example.com" class="online__link">
-                See all challenges
-            </a>
-
-        </section>
-
-    
+          </article>
+          <article class="challenges__card">
+            <img
+              class="challenges__card-image"
+              src="images/challenger_card.svg"
+              alt="Picture of man sitting in front lots of screens"
+            />
+            <div class="challenges__card-content">
+              <h3 class="challenges__card-title">Title of room (on-site)</h3>
+              <div class="challenges__rating">
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 1.svg" alt="" />
+                <img class="challenges__star" src="images/Star 5.svg" alt="" />
+                <p class="challenges__participants">2-6 participants</p>
+              </div>
+              <p class="challenges__card-description">
+                Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+                nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+              </p>
+              <a href="example.com" class="challenges__card-link">
+                Book this room
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="challenges__buttons">
+          <a
+            href="example.com"
+            class="challenges__link challenges__link--onsite"
+          >
+            On-site challenges
+          </a>
+          <a
+            href="example.com"
+            class="challenges__link challenges__link--online"
+          >
+            Online challenges
+          </a>
+        </div>
+      </section>
+      <section class="story">
+        <p class="story__text">
+          Quodsi haberent magnalia inter potentiam et divitias, et non illam
+          quidem haec eo spectant haec quoque vos omnino desit illud quo solo
+          felicitatis libertatisque perficiuntur.
+        </p>
+        <a href="example.com" class="story__link"> Read the full story </a>
+      </section>
+      <section class="onsite">
+        <img
+          class="onsite__image"
+          src="images/nesa-by-makers-IgUR1iX0mqM-unsplash 1.svg"
+          alt="People working together at computers"
+        />
+        <div class="onsite__content">
+          <h2 class="onsite__title">
+            Play with your friends or build your team stronger at work
+          </h2>
+          <p class="onsite__description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <a href="example.com" class="onsite__link"> Book on-site today </a>
+        </div>
+      </section>
+      <section class="online">
+        <img
+          class="online__image"
+          src="images/kelly-sikkema-YK0HPwWDJ1I-unsplash 1.svg"
+          alt="Person working on a computer"
+        />
+        <div class="online__content">
+          <h2 class="online__title">
+            Play online or visit our venue for one of our 25 escape rooms
+          </h2>
+          <p class="online__description">
+            Praeterea, ex culpa non invenies unum aut non accusatis unum. Et
+            nihil inuitam. Nemo nocere tibi erit, et non inimicos, et
+          </p>
+          <a href="example.com" class="online__link"> See all challenges </a>
+        </div>
+      </section>
     </main>
-        <footer class="footer">
-            <p class="footer__company">
-                [Esc] Hacker Escape Rooms
-            </p>
+    <footer class="footer">
+      <div class="footer__about">
+        <p class="footer__company">[Esc] Hacker Escape Rooms</p>
 
-            <p class="footer__description">
-                Quodsi haberent magnalia inter potentiam et divitias,
-                et non illam quidem haec eo spectant haec quoque vos
-                omnino desit illud quo solo felicitatis libertatisque
-                perficiuntur.
-            </p>
-        </footer>
- 
+        <p class="footer__description">
+          Quodsi haberent magnalia inter potentiam et divitias, et non illam
+          quidem haec eo spectant haec quoque vos omnino desit illud quo solo
+          felicitatis libertatisque perficiuntur.
+        </p>
+      </div>
+      <nav class="footer__sitemap" aria-label="Site map">
+        <h2 class="footer__heading">Site map</h2>
 
+        <a href="example.com" class="footer__link">The Story</a>
+        <a href="example.com" class="footer__link">Contact Us</a>
+        <a href="example.com" class="footer__link">Legal</a>
 
-</body>
+        <a href="example.com" class="footer__link footer__link--play"
+          >Play online</a
+        >
+        <a href="example.com" class="footer__link">Play on-site</a>
+      </nav>
+      <nav class="footer__social" aria-label="Social media">
+        <h2 class="footer__heading">Follow us on</h2>
+
+        <a href="example.com" class="footer__link">Facebook</a>
+        <a href="example.com" class="footer__link">Instagram</a>
+        <a href="example.com" class="footer__link">Twitter</a>
+      </nav>
+    </footer>
+  </body>
 </html>
