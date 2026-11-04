@@ -302,7 +302,19 @@ body {
 .header__nav {
   display: none;
 }
-
+.header__nav--open {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #011827;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 1024px) {
   .header {
     height: 216px;
